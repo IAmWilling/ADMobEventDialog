@@ -1,0 +1,3 @@
+include ':admobevwindow'
+include ':app'
+rootProject.name = "ADMobEventDialog"

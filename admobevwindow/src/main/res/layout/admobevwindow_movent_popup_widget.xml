@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#fff"
+    android:orientation="vertical"
+    android:paddingTop="35dp"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+   <LinearLayout
+       android:orientation="horizontal"
+       android:gravity="center_vertical"
+       android:layout_width="match_parent"
+       android:background="#fff"
+       android:elevation="10dp"
+       android:layout_height="wrap_content">
+       <TextView
+           android:id="@+id/admobevwindow_current_update"
+           android:background="?selectableItemBackground"
+           android:text="当前触发"
+           android:gravity="center"
+           android:layout_width="0dp"
+           android:layout_weight="1"
+           android:layout_height="35dp"/>
+       <TextView
+           android:id="@+id/admobevwindow_current_page"
+           android:text="当前页面"
+           android:background="?selectableItemBackground"
+           android:gravity="center"
+           android:layout_width="0dp"
+           android:layout_weight="1"
+           android:layout_height="35dp"/>
+   </LinearLayout>
+    <com.admob.admobevwindow.MoventListView
+        android:id="@+id/movent_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>
