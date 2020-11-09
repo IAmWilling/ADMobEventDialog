@@ -18,7 +18,7 @@ allprojects {
 ```
 ```javascript
 dependencies {
-	 implementation 'com.github.IAmWilling:ADMobEventDialog:1.0.0'
+	 implementation 'com.github.IAmWilling:ADMobEventDialog:1.0.1'
 }
 ```
 > 代码
