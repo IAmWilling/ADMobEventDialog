@@ -14,11 +14,17 @@
         android:layout_height="wrap_content">
         <TextView
             android:id="@+id/movent_id"
+            android:lines="1"
+            android:ellipsize="end"
+            android:text=""
             android:textSize="14sp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
         <TextView
             android:textSize="14sp"
+            android:lines="1"
+            android:ellipsize="end"
+            android:text=""
             android:id="@+id/movent_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
