@@ -46,6 +46,7 @@ ADMobEv.getInstance().addEv("xx","xxxxx");
 public static final String BTN_CLICK = "btn_click";
 ```
 ## 最后
+自行在项目debug模式下操作该库的代码
 当看到第一个界面出现蓝色小球时，表面加载完毕了，小球是可拖动的，不影响操作。
 ## 如何实现的
 1.注解 -> 反射 -> 映射数据 -> 监听activity生命周期postOnCreated -> PopupWindow(含可滚动ViewGroup)
