@@ -71,7 +71,6 @@ public class MoventPopupWindow extends PopupWindow {
             setFocusable(true);
             setTouchable(true);
             setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
-            setClippingEnabled(false);
         }
         catch (Exception e) {
 
